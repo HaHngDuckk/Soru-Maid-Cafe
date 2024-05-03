@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soru Maid Cafe</title>
+
+  <!-- Link -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--  -->
+</head>
+
+<body>
+  <div id="container">
+    
+  <!-- Navbar -->
+    <div class="div-navbar">
+      <a id="buttonNav" href="mailto:Sorumaidcafe01@gmail.com">
+        <ion-icon name="mail-outline" class="icon-navbar"></ion-icon>
+      </a>
+      <a id="buttonNav" href="">
+        <ion-icon name="share-social-outline" class="icon-navbar"></ion-icon>
+      </a>
+    </div>
+  <!--  -->
+  
+  
+  <!-- Logo -->
+      <div class="div-avatar">
+        <img src="sorumaidcafe.png" class="img-avatar">
+      </div>
+      <div class="div-name">
+        <p class="p-name">
+          Soru Maid Cafe
+        </p>
+      </div>
+      <div class="div-note">
+        <p class="p-note">
+          Quán Soru Maid Cafe Xin chào! Chủ nhân
+        </p>
+      </div>
+  <!--  -->
+  
+  
+  <!-- Quick button -->
+      <div class="div-quick-button">
+        <button type="submit" class="button-quick button-qk-1" onclick="chat()">
+          Nhắn Tin
+        </button>
+        <button type="submit" class="button-quick button-qk-2" onclick="maps()">
+          Chỉ Đường
+        </button>
+      </div>
+  <!--  -->
+  
+  
+  <!-- Border -->
+    <div class="div-border-content-1">
+      <div class="div-border-content-2">
+        
+        <div class="div-social-network">
+          <p class="p-socical-network">
+            Mạng xã hội
+          </p>
+          <p class="p-content-socical-network">
+            Theo dõi thêm về những sự kiện và xem những bé mèo đáng iu nhé.
+          </p>
+        </div>
+        
+        <div class="div-button-network">
+          
+          <button type="submit" id="mxhButton" onclick="facebook()">
+            <i class="fa-brands fa-facebook-f icon-mxh"></i>
+            Facebook
+          </button>
+          
+          <button type="submit" id="mxhButton" onclick="tiktok()">
+            <i class="fa-brands fa-tiktok icon-mxh"></i>
+            Tiktok
+          </button>
+          
+          <button type="submit" id="mxhButton" onclick="instagram()">
+            <i class="fa-brands fa-facebook-f icon-mxh"></i>
+            Instagram
+          </button>
+          
+        </div>
+        
+      </div>
+        <div class="div-svg-bottom">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F8A3A6" fill-opacity="1" d="M0,160L34.3,170.7C68.6,181,137,203,206,192C274.3,181,343,139,411,149.3C480,160,549,224,617,245.3C685.7,267,754,245,823,208C891.4,171,960,117,1029,96C1097.1,75,1166,85,1234,117.3C1302.9,149,1371,203,1406,229.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        </div>
+    </div>
+  <!--  -->
+  
+  
+  <!-- Info -->
+    <div class="div-info">
+      <p class="p-info-title">
+        Giới thiệu chung
+      </p>
+      <div class="div-border-img-info"><img src="img-info.jpg" class="img-info"></div>
+      <p class="p-info-content">
+        Soru Maid Cafe là một quán cà phê theo phong cách hầu gái, nơi các nhân viên phục vụ được gọi là "maid" sẽ chào đón bạn, cho bạn trải nghiệm như được phục vụ bởi những cô hầu gái trong anime.
+      </p>
+    </div>
+  <!--  -->
+  
+  <!--Check out -->
+  <div class="div-svg-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F8A3A6" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,144C384,139,480,85,576,96C672,107,768,181,864,224C960,267,1056,277,1152,282.7C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  </div>
+    <div class="div-border-content-3">
+      <div class="div-border-content-4">
+        
+        <div class="div-bottom-info">
+          <p class="p-bottom-info">
+            Bye bye
+          </p>
+        </div>
+        <div class="div-info-bottom">
+          
+          <div class="div-info-bottom-item">
+            <ion-icon name="compass" class="icon-bottom-info"></ion-icon>
+            <p class="p-bottom-info-content">
+              84A P. Trấn Vũ, Quán Thánh, Ba Đình, Hà Nội
+            </p>
+          </div>
+          
+          <div class="div-info-bottom-item">
+            <ion-icon name="mail" class="icon-bottom-info"></ion-icon>
+            <p class="p-bottom-info-content">
+              Sorumaidcafe01@gmail.com
+            </p>
+          </div>
+          <div class="div-info-bottom-item">
+            <ion-icon name="calendar-clear" class="icon-bottom-info"></ion-icon>
+            <p class="p-bottom-info-content">
+              Mở hằng ngày, từ 11:00 - 22:00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <script src="main.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
